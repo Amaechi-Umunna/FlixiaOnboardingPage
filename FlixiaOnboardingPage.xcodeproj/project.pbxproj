@@ -11,6 +11,8 @@
 		581F5C342910272000BB8F90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F5C332910272000BB8F90 /* ContentView.swift */; };
 		581F5C362910272100BB8F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581F5C352910272100BB8F90 /* Assets.xcassets */; };
 		581F5C392910272100BB8F90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581F5C382910272100BB8F90 /* Preview Assets.xcassets */; };
+		581F5C40291071C400BB8F90 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F5C3F291071C400BB8F90 /* WelcomeScreenView.swift */; };
+		581F5C422910EE3A00BB8F90 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F5C412910EE3A00BB8F90 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		581F5C332910272000BB8F90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		581F5C352910272100BB8F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581F5C382910272100BB8F90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		581F5C3F291071C400BB8F90 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		581F5C412910EE3A00BB8F90 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				581F5C332910272000BB8F90 /* ContentView.swift */,
 				581F5C352910272100BB8F90 /* Assets.xcassets */,
 				581F5C372910272100BB8F90 /* Preview Content */,
+				581F5C3F291071C400BB8F90 /* WelcomeScreenView.swift */,
+				581F5C412910EE3A00BB8F90 /* SignInScreenView.swift */,
 			);
 			path = FlixiaOnboardingPage;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581F5C422910EE3A00BB8F90 /* SignInScreenView.swift in Sources */,
+				581F5C40291071C400BB8F90 /* WelcomeScreenView.swift in Sources */,
 				581F5C342910272000BB8F90 /* ContentView.swift in Sources */,
 				581F5C322910272000BB8F90 /* FlixiaOnboardingPageApp.swift in Sources */,
 			);
